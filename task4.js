@@ -1,5 +1,6 @@
 function f() {
-    let obj = new Object();
+    let obj = Object.create(null);
+
     return obj;
 }
 
